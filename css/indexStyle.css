@@ -1,0 +1,79 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, .row, .container-fluid {
+  background: rgb(244,110,195);
+  background: linear-gradient(90deg, rgba(244,110,195,1) 0%, rgba(238,96,156,1) 61%, rgba(181,101,217,1) 100%);
+
+}
+
+
+.contenedorPrincipal{
+  margin: auto;
+  width: auto;
+  height: auto;
+  background-color: #171B29;
+
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.contenedorMedio{
+  width: auto;
+  padding: 80px;
+  border-bottom: 1px solid rgba(65, 65, 65, 0.603);
+  color: black;
+
+}
+
+
+.contenedorMedio p, h1{
+  text-align: center;
+  font-weight: lighter;
+  color: #000000;
+}
+
+.main{
+  background: rgb(244,110,195);
+  background: linear-gradient(90deg, rgba(244,110,195,1) 0%, rgba(238,96,156,1) 61%, rgba(181,101,217,1) 100%);
+}  
+
+.departamentos{
+  float: left;
+  width: 200px;
+  height: 250px;
+  border-radius: 13px 13px 13px 13px;
+  color: white;
+
+}
+
+.departamentos h1{
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.departamentos .departamentoImagen{
+  margin: auto;
+  width: auto;
+  height: 130px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.button- {
+  background: rgb(252,4,65);
+  background: linear-gradient(90deg, rgba(252,4,65,1) 21%, rgba(246,45,168,1) 100%);
+  width: 100px;
+  height: 35px;
+  border-radius: 20px 20px 20px 20px;
+  border: none;
+  font-weight:bolder;
+  color: white;
+}
+
